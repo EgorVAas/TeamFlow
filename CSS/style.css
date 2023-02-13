@@ -1,0 +1,592 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #35414b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*!============ HEADER ==================  */
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header__menu_logo {
+  margin-top: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+}
+
+.header__list {
+  display: flex;
+  gap: 50px;
+  margin-left: 40px;
+}
+
+.header__item {
+  list-style-type: none;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header__item_login {
+  list-style-type: none;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.header__submit {
+  display: flex;
+}
+
+.header__item_submit {
+  margin-top: 15px;
+  border: 0;
+  border-radius: 4px;
+  background: #ece6ff;
+  color: #794cff;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 16px 24px;
+}
+
+.header__item_submit:hover,
+.header__item_submit:focus,
+.header__item_submit:active {
+  background: #bba6fa;
+}
+
+/*!=========== DISCOUNT =============== */
+
+.discount {
+  margin-left: 40px;
+}
+
+.save {
+  position: absolute;
+  background: #81c43b;
+  width: 108px;
+  height: 32px;
+  border-radius: 100px;
+  text-align: center;
+  color: white;
+  padding-top: 6px;
+}
+
+.get-acc {
+  margin-left: 90px;
+  background: #f2f9eb;
+  width: 209px;
+  height: 32px;
+  border-radius: 0px 100px 100px 0px;
+  text-align: center;
+  padding-top: 6px;
+  color: #35414b;
+}
+
+/*!======================= MANAGE INTRO =========================== */
+
+.manage__block {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.manage__intro-title {
+  padding-top: 24px;
+  font-weight: 600;
+  width: 760px;
+  height: 144px;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+  color: #35414b;
+}
+
+.manage__intro-subtitle {
+  padding-top: 24px;
+  margin: 0 auto;
+  width: 505px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4e5a65;
+}
+
+/*!================== SEARCH FORM ==================== */
+
+.search-form__info {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.search-form__field {
+  width: 319px;
+  height: 52px;
+  font-size: 16px;
+  color: #97a5b5;
+  border: 1px solid #e1e5ea;
+  border-radius: 4px 0px 0px 4px;
+  padding-left: 24px;
+}
+
+.search-form__submit {
+  width: 164px;
+  height: 52px;
+  background: #794cff;
+  border: 1px solid #794cff;
+  border-radius: 0px 4px 4px 0px;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+
+.search-form__submit:hover,
+.search-form__submit:active,
+.search-form__submit:focus {
+  background: #6232f4;
+}
+
+/*!============================= GRAPH ===============================  */
+
+.graph1 {
+  margin: 0 auto;
+}
+
+.manage__trusted {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/*!================================== COMPANY ==================================  */
+
+.manage__company {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  top: 20px;
+}
+
+#Google {
+  position: absolute;
+  width: 80px;
+  height: 26.11px;
+  right: 400px;
+}
+
+#Air {
+  position: absolute;
+  width: 80px;
+  height: 24.96px;
+  right: 170px;
+}
+
+#FB {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  top: 5px;
+}
+
+#HS {
+  position: absolute;
+  width: 80px;
+  height: 23.3px;
+  left: 170px;
+}
+
+#Slack {
+  position: absolute;
+  width: 80px;
+  height: 20.24px;
+  left: 400px;
+}
+
+.manage__survey {
+  display: flex;
+  margin-top: 106px;
+  background: #fbfafe no-repeat center;
+  height: 650px;
+  width: 100%;
+  border: 1px dashed #f0ebfa;
+}
+
+#pic1 {
+  height: 518px;
+  margin-top: 60px;
+  margin-left: 160px;
+}
+
+.survey__cards {
+  margin-left: 80px;
+  margin-top: 60px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  background: #f6f3fc;
+  border: 1px solid #f6f3fc;
+  border-radius: 0px 8px 8px 0px;
+  border-left: 8px solid #794cff;
+  padding: 30px 30px;
+}
+
+hr {
+  border: 1px solid #f0ebfa;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}
+
+.card4 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}
+
+#cards {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #35414b;
+}
+
+#cards__p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e5a65;
+}
+
+.spc__h6 {
+  padding-top: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #35414b;
+}
+
+.spc__p {
+  padding-top: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e5a65;
+}
+
+.mywe__make {
+  margin-top: 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #35414b;
+}
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mywe__space1 {
+  padding-top: 60px;
+  display: flex;
+  gap: 120px;
+  align-items: center;
+}
+
+.mywe__space2 {
+  padding-top: 80px;
+  display: flex;
+  gap: 170px;
+  align-items: center;
+}
+
+.spc2 {
+  padding-right: 50px;
+}
+
+.section5 {
+  margin-top: 100px;
+  background: #fbfafe;
+  border: 1px solid #f0ebfa;
+  width: 100%;
+  height: 540px;
+  display: flex;
+}
+
+.section5__pic {
+  width: 597px;
+  margin-top: 65px;
+}
+
+#s5__h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #35414b;
+}
+
+#s5__p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e5a65;
+  margin-top: 24px;
+}
+
+#s5__btn {
+  margin-top: 32px;
+  background: #796eff;
+  border-radius: 4px;
+  border: 0;
+  color: white;
+  padding: 18px 21px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+}
+
+#s5__btn:hover,
+#s5__btn:focus,
+#s5__btn:active {
+  background: #5b4df9;
+}
+
+.section5__txt {
+  margin-top: 131px;
+}
+
+.section5 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*!==================== SECTION 5 END ================================  */
+
+.s6__h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #35414b;
+  margin-top: 100px;
+}
+
+.s6__p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #4e5a65;
+  margin-top: 48px;
+}
+
+.team__h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #4e5a65;
+}
+
+.team__p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #4e5a65;
+}
+
+.dwnl__txt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.section__6 {
+  text-align: center;
+}
+
+.section6__team {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.section6__download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1110px;
+  height: 224px;
+  margin: 104px auto;
+  background: #796eff;
+  border-radius: 16px;
+  gap: 143px;
+}
+
+.s6__pic {
+  display: flex;
+  gap: 25px;
+  height: 53px;
+}
+
+.team1 {
+  width: 264px;
+  border-top: 4px solid #35414b;
+}
+
+/*!==================================== SECTION 6 END =========================================  */
+
+footer {
+  background: #1d2830;
+  width: 1500px;
+  height: 230px;
+  padding-top: 80px;
+  padding-bottom: 161px;
+}
+
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 160px;
+  padding-right: 270px;
+  margin-bottom: 100px;
+}
+
+.footer__block2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-p {
+  margin-top: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+}
+
+#ftr-a {
+  margin-top: 25px;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+#ftr-img {
+  margin-top: 25px;
+}
+
+.reserved {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #d9dbe1;
+  display: flex;
+  margin-top: 33px;
+  margin-bottom: 33px;
+  margin-left: 165px;
+}
+
+.social {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 200px;
+}
+
+.ftr-hr {
+  background: #ffffff;
+  opacity: 0.1;
+}
